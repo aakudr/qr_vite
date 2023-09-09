@@ -1,8 +1,15 @@
-# React + Vite
+# Simple QR code generator
+![Screenshot of the app](/screenshot.jpg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<hr>
 
-Currently, two official plugins are available:
+### Usage:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repo
+2. Run ```yarn```
+3. Run ```yarn dev``` for the dev server to start
+4. Run ```yarn build``` for the bundle to appear in ```/dist``` folder
+
+> ℹ️ QR code max capacity -- 1273 bytes (default in ```qrcode``` package)
+
+### initialized with ⚛️React + Vite⚡
