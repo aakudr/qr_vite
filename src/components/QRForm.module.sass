@@ -1,0 +1,16 @@
+.root
+    display: flex
+    flex-direction: column
+    justify-content: center
+    & > *:not(:last-child)
+        margin-bottom: 1rem
+    & > *:first-child
+        input
+            width: 100%
+            border: 1px solid #000
+            padding: 0.5rem
+            font-size: 1rem
+            box-sizing: border-box
+            &:focus
+                outline: none
+        
